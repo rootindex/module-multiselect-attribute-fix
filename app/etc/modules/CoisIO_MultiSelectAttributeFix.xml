@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2017 CoisIO. All rights reserved.
+  -->
+<config>
+    <modules>
+        <CoisIO_MultiSelectAttributeFix>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Eav/>
+            </depends>
+        </CoisIO_MultiSelectAttributeFix>
+    </modules>
+</config>

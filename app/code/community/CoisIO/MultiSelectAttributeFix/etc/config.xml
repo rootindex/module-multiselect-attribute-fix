@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2017 CoisIO. All rights reserved.
+  -->
+<config>
+    <modules>
+        <CoisIO_MultiSelectAttributeFix>
+            <version>1.0.0</version>
+        </CoisIO_MultiSelectAttributeFix>
+    </modules>
+    <global>
+        <models>
+            <coisio_multiselectattributefix>
+                <class>CoisIO_MultiSelectAttributeFix_Model</class>
+            </coisio_multiselectattributefix>
+            <catalog_resource>
+                <rewrite>
+                    <product_indexer_eav_source>CoisIO_MultiSelectAttributeFix_Model_Resource_Catalog_Product_Indexer_Eav_Source</product_indexer_eav_source>
+                </rewrite>
+            </catalog_resource>
+        </models>
+    </global>
+</config>

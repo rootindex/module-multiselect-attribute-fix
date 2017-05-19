@@ -1,0 +1,14 @@
+{
+  "name": "coisio/module-multiselect-attribute-fix",
+  "description": "Fixes Multiselect attributes indexing issues",
+  "type": "magento-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Francois Raubenheimer",
+      "email": "fran@cois.io"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {}
+}
